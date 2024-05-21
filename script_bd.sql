@@ -1,16 +1,16 @@
-CREATE DATABASE dbapiCarros;
+CREATE DATABASE dbApiCarros;
 
-USE dbapiCarros;
+USE dbApiCarros;
 
 CREATE TABLE carros
 (
-codigo int primary key auto_increment,
-modelo varchar(30),
-placa varchar(7)
+	codigo int primary key auto_increment,
+    modelo varchar(30),
+    placa varchar(7)
 );
 
-insert into carros (modelo, placa) values ('Ferrari vermelha','DDD0900');
-insert into carros (modelo, placa) values ('Honda fit', 'DDE0980');
-insert into carros (modelo, placa) values ('Corolla', 'MRG0980');
+insert into carros (modelo, placa) values ('Fusca Azul','DDD0000');
+insert into carros (modelo, placa) values ('Honda Fit','GJG3566');
+
 
 select * from carros
